@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Main";
+}
+@using (Html.BeginForm("GetRoom", "HottestPotatoe", FormMethod.Post))
+{
+    <center>
+        <div class="container-fluid" style="margin-top: 12px">
+            <div class="row">
+                <div class="col-lg-6">
+                    <button class="btn btn-primary btn-block" style="margin-top: 12px">Join Party</button>
+                </div>
+                <div class="col-lg-6">
+                    <button class="btn btn-primary btn-block" style="margin-top: 12px">Create Party</button>
+                </div>
+            </div>
+        </div>
+    </center>
+}
